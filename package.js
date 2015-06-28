@@ -2,7 +2,7 @@ Package.describe({
 	name: 'sorenpeterson:createjs',
 	version: '0.0.2',
 	// Brief, one-line summary of the package.
-	summary: 'CreateJS packaged for meteor. Current versions: EaselJS 0.8.1, TweenJS 0.6.1, SoundJS 0.6.1, PreloadJS 0.6.1',
+	summary: 'EaselJS 0.8.1, TweenJS 0.6.1, SoundJS 0.6.1, PreloadJS 0.6.1',
 		// URL to the Git repository containing the source code for this package.
 	git: 'https://github.com/sorenpeterson/createjs-meteor.git',
 		// By default, Meteor will default to using README.md for documentation.
