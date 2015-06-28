@@ -15,8 +15,3 @@ Package.onUse(function(api) {
 	api.addFiles('create-js.2015.05.21.combined.js', 'client');
 });
 
-Package.onTest(function(api) {
-	api.use('tinytest');
-	api.use('createjs');
-	api.addFiles('createjs-tests.js');
-});
