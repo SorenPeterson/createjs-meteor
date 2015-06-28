@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'createjs',
+	name: 'sorenpeterson:createjs',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'CreateJS packaged for meteor. Current versions: EaselJS 0.8.1, TweenJS 0.6.1, SoundJS 0.6.1, PreloadJS 0.6.1',
@@ -17,6 +17,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('createjs');
+  api.use('sorenpeterson:createjs');
   api.addFiles('createjs-tests.js');
 });
